@@ -342,6 +342,10 @@ trigger:
   device_id: !input 'device'
   type: before_alarm
   id: before_alarm
+condition:
+- condition: state
+  entity_id: !input person
+  state: !input state
 action:
 - choose:
   - conditions:
