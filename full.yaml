@@ -345,6 +345,7 @@ trigger:
 condition:
 - condition: state
   entity_id: !input person
+  state: !input state
 action:
 - choose:
   - conditions:
