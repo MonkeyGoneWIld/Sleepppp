@@ -2,7 +2,7 @@ blueprint:
   name: Sleep as Android MQTT actions
   description: Define actions based on Sleep As Android sensor states
   domain: automation
-  source_url: https://github.com/IATkachenko/HA-SleepAsAndroid/blob/main/blueprint/full.yaml
+  source_url: https://github.com/MonkeyGoneWIld/Sleepppp/main/full.yaml
   input:
     device:
       name: SleepAsAndroid device
