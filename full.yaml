@@ -2,7 +2,7 @@ blueprint:
   name: Sleep as Android MQTT actions
   description: Define actions based on Sleep As Android sensor states
   domain: automation
-  source_url: https://github.com/MonkeyGoneWIld/Sleepppp/main/full.yaml
+  source_url: https://github.com/MonkeyGoneWIld/Sleepppp/blob/main/full.yaml
   input:
     device:
       name: SleepAsAndroid device
@@ -19,7 +19,7 @@ blueprint:
     state:
       name: State
       description: Person must be in this state
-      default: []
+      default: home
     sleep_tracking_started:
       name: sleep_tracking_started
       description: sleep_tracking_started event
