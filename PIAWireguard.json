@@ -9,6 +9,6 @@
     "piaRegionId": "uk",
     "piaDipToken": "DIP2884Zpr7yV5OHrP4VoH3WaMuFBwCl",
     "piaPortForward": false,
-    "piaUseDip": true,
+    "piaUseDip": false,
     "tunnelGateway": null
 }
